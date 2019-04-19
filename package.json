@@ -1,0 +1,24 @@
+{
+  "name": "Learning-GraphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VincentSJM/Learning-GraphQL.git",
+  "author": "VincentSJM",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.3.2",
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.2.1"
+  }
+}
